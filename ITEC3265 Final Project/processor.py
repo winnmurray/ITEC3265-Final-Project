@@ -45,7 +45,7 @@ class Processor:
 #the process_generator function generates random integer values for processes. The number of processes generated
 #is determined by the number in range(x)
 def process_generator(processor, synchronization):
-    for i in range(100):
+    for i in range(10):
         name = f"Process-{i + 1}"
         burst_time = random.randint(1, 5)
         priority = random.randint(1, 5)
