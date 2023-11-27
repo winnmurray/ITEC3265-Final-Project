@@ -78,7 +78,7 @@ The Synchronization class provides mechanisms for coordinating access to shared 
 ### 3.3 Usage
 
 The Synchronization class is used by the Processor and MemoryManager classes to coordinate access to shared resources, ensuring that processes do not interfere with each other.
-## 4. MemoryManager (memory_manager.py)
+## 4. MemoryManager (memorymanager.py)
 
 The MemoryManager class handles memory allocation and deallocation for processes. It maintains a free list of memory blocks, and it uses a lock to ensure thread safety when accessing and modifying the free list.
 ### 4.1 Class Components
