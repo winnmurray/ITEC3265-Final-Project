@@ -1,6 +1,6 @@
 #Memory manger is responsible for memory allocation and deallocation for processes. 
 #Memory blocks are managed using a free list, and blocks can be split and merged to
-#delegate memory efficiently. 
+#delegate memory efficiently. The first fit memory allocation method is used.
 
 
 import threading
